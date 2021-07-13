@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true,
+    //     false.
+    //     Вивести кожну змінну за допомогою: console.log , alert, document.write
+    // - Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.
+    //     Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+    let msg= 'hello';
+    msg='hi'
+    let msg2= 'owu';
+    msg2='nice'
+    let msg3= 'com';
+    msg3= 'cool'
+    let msg4 ='ua';
+    msg4= 'usa'
+    let msg5= '1';
+    msg5= '3'
+    let msg6='10';
+    msg6= '12'
+    let msg7= '-999';
+    msg7= '-20'
+    let msg8= '123';
+    msg8= '250'
+    let msg9= '3.14';
+    msg9='4.15'
+    let msg10= '2.7';
+    msg10= '3.4'
+    let msg11= '16';
+    msg11= '60';
+    let msg12= 'true';
+     msg12= 'good';
+    let msg13= 'false';
+    msg13= 'bad'
+    document.write(`<h1>${msg}</h1>`);
+    document.write(`<h1>${msg2}</h1>`);
+    document.write(`<h1>${msg3}</h1>`);
+    document.write(`<h1>${msg4}</h1>`);
+    document.write(`<h1>${msg5}</h1>`);
+    document.write(`<h1>${msg6}</h1>`);
+    document.write(`<h1>${msg7}</h1>`);
+    document.write(`<h1>${msg8}</h1>`);
+    document.write(`<h1>${msg9}</h1>`);
+    document.write(`<h1>${msg10}</h1>`);
+    document.write(`<h1>${msg11}</h1>`);
+    document.write(`<h1>${msg12}</h1>`);
+    document.write(`<h1>${msg13}</h1>`);
+    console.log(msg);
+    console.log(msg2);
+    console.log(msg3);
+    console.log(msg4);
+    console.log(msg6);
+    console.log(msg7);
+    console.log(msg8);
+    console.log(msg9);
+    console.log(msg10);
+    console.log(msg11);
+    console.log(msg12);
+    console.log(msg13);
+
+
+
+    // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. Зконкатенувати їх в одну змінну
+    // person.
+    let firstName= 'Назар';
+    let middleName= 'Сухорукий'
+    let lastName= 'Володимирович'
+    let person= firstName + middleName + lastName
+    document.write(person);
+
+
+
+
+
+    // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+    //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+
+
+    // let user = {
+    //     name: 'Назар',
+    //     surname: 'Володимирович',
+    //     age: 24
+    // };
+    //
+    // document.write(`Вітаю ${user.name} ${user.surname}. Тобі ${user.age} років `);
+
+    let name = prompt('Назар')
+    let surname = prompt('Володимирович')
+    let age = prompt('24')
+
+    document.write(`Вітаю ${name} ${surname}. Тобі ${age} років `);
+
+
+
+
+    // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+    //     let a = 100; let b = '100'; let c = true;
+    let a = 100;
+    console.log(typeof a);
+    let b = '100';
+    console.log(typeof b);
+    let c = true;
+    console.log(typeof true);
+
+
+
+
+    // - Поставет відповідний оператор в виразах що б вийшов відповідний результат.
+    //     В однакових виразаї не використовувати однакові оператори!!!
+    let trust= 5 < 6
+    document.write(`${trust}`)
+    let trust1= 5>6
+    document.write(`${trust1}`)
+    let trust2= 5 >= 6
+    document.write(`${trust2}`)
+    let trust3= 5 == 6
+    document.write(`${trust3}`)
+    let trust4= 10>=10
+    document.write(`${trust4}`)
+    let trust5= 10==10
+    document.write(`${trust4}`)
+    let trust6= 10<10
+    console.log(trust6)
+    let trust7= 10>10
+    console.log(trust7)
+    let trust8= 10!=10
+    console.log(trust8)
+    let trust9=123>'123'
+    console.log(trust9)
+    let trust10= 123<='123'
+    console.log(trust10)
+</script>
+
+</body>
+</html>
